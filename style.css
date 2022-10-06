@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Bhai 2", cursive;
+}
+::placeholder {
+  color: white;
+  letter-spacing: 3px;
+}
+.login {
+  background-color: #474747;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 400px;
+  /* margin: auto; */
+}
+.text {
+  font-weight: bold;
+  margin-bottom: 50px;
+  font-size: xx-large;
+  color: #cacaca;
+  letter-spacing: 7px;
+}
+input,
+.btn {
+  width: 100%;
+  height: 43px;
+}
+input {
+  padding: 7px 12px;
+  border: 1px solid white;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+input:focus {
+  outline: none;
+  border: 1px solid #474747;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  color: white;
+  box-shadow: 0 0 8px 4px rgb(255, 255, 255, 0.3);
+  transition: 0.3s box-shadow ease-out;
+  -webkit-transition: 0.3s box-shadow ease-out;
+  -moz-transition: 0.3s box-shadow ease-out;
+  -ms-transition: 0.3s box-shadow ease-out;
+  -o-transition: 0.3s box-shadow ease-out;
+}
+
+.marg {
+  margin-bottom: 30px;
+}
+.btncontainer {
+  margin-top: 70px;
+}
+.btn {
+    color: white;
+    background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 7px 12px;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: large;
+  letter-spacing: 4px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #727272;
+  border: 1px solid #cfcdcd  ;
+  color: white;
+  box-shadow: 0 0 8px 4px rgb(255, 255, 255, 0.3);
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
